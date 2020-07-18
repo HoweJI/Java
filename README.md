@@ -15,4 +15,6 @@ Learning progress
       %JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
       
 after all config, input "java -version" on commond prompt
+
+
 2.install Eclipse
