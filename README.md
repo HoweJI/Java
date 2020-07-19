@@ -18,3 +18,10 @@ after all config, input "java -version" on commond prompt
 
 
 2.install Eclipse
+3.install Maven
+    Download Link :http://maven.apache.org/download.cgi
+    it's more convient to down load the Binary Zip
+    
+4.create maven project in the Eclipse
+    we may could not find the Archetype first time.
+    please use the mvn help:system to set up the initial environment for maven.
