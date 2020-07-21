@@ -57,3 +57,14 @@ after all config, input "java -version" on commond prompt
     build path->libraries->add server run time->add you tomcat
     if the character displays error with chinese in cmd, please update the tomcat/conf/logging.properties file java.util.logging.ConsoleHandler.encoding = GBK(previous is UTF-8)
 7.new a package in the src/main/java named as com.jiahao.servlet(we use this package to store all servlet file.)
+8.define the initial page
+    
+      <welcome-file-list>
+  	    <welcome-file>index.jsp</welcome-file>
+      </welcome-file-list>
+      due to the tomcat setting in conf/we.xml, we only could named the initial jsp as "index".
+      <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.htm</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+      </welcome-file-list>
