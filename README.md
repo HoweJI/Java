@@ -52,3 +52,8 @@ after all config, input "java -version" on commond prompt
     Description	Resource	Path	Location	Type Build path specifies execution environment J2SE-1.5.
     -modify the JRE in the build path
     Dynamic Web Module also need change
+6.config tomcat in eclipse
+
+    build path->libraries->add server run time->add you tomcat
+    if the character displays error with chinese in cmd, please update the tomcat/conf/logging.properties file java.util.logging.ConsoleHandler.encoding = GBK(previous is UTF-8)
+7.new a package in the src/main/java named as com.jiahao.servlet(we use this package to store all servlet file.)
