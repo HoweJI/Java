@@ -68,3 +68,8 @@ after all config, input "java -version" on commond prompt
         <welcome-file>index.htm</welcome-file>
         <welcome-file>index.jsp</welcome-file>
       </welcome-file-list>
+
+8.temp solution for CORS problem
+
+    add the @CrossOrigin(origins = "http://localhost:9090", maxAge = 3600) to all used controller
+    if you add this to a function specifically, only this function could be called cross region
