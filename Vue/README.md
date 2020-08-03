@@ -42,3 +42,20 @@ Learning progress
     npm i bootstrap-vue
     https://bootstrap-vue.org/
     we could find most of the controls usage from this site
+
+7.id will be mount by Vue -- el
+
+8.template means the content in the el -- template
+
+9.instance is the combine of the el and template
+
+10.v-text will not be transfered by vue, but v-html will
+
+11.v-show and v-if
+
+    v-if will clean the html, remove from DOM
+    v-show will just act as display: none
+
+12.v-for
+    better to add :key="item", it will improve the performance
+    key should be unique
